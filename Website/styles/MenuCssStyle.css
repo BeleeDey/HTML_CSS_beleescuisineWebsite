@@ -1,0 +1,55 @@
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bree+Serif&family=Crete+Round:ital@0;1&family=Lobster&family=Merriweather:ital,wght@0,400;1,700&family=Pacifico&family=Roboto+Slab&family=Vollkorn:ital,wght@0,500;0,600;1,800&display=swap');
+body {
+  background-repeat: no-repeat, repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #B6E3DB;
+  color: #221811; /*Text color*/
+  font-family: 'Abril Fatface', cursive;
+  font-family: 'Bree Serif', serif;
+  font-family: 'Crete Round', serif;
+  font-family: 'Lobster', cursive;
+  font-family: 'Merriweather', serif;
+  font-family: 'Pacifico', cursive;
+  font-family: 'Roboto Slab', serif;
+  font-family: 'Vollkorn', serif;
+  text-align: justify;
+}
+h1 {
+  font-size: 45px;
+  color: #E91115;
+  text-align: center;
+}
+h2 {
+	font-weight: bold;
+  font-size: 30px;
+  color: #D208F8;
+}
+p{
+	font-size: 18px;
+	color: #030000;
+}
+.header {
+  margin: 0 0 1em;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 1em;
+  margin-left: 0px;
+}
+.slideshow {
+  display: flex;
+  position: relative;
+  justify-content: flex-end;
+}
+#wrapper {
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+}
+footer {
+  background-color: #F4EBAA;
+  font-size: .90em;
+  font-style: italic;
+  text-align: center;
+}
